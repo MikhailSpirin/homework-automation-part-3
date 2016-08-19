@@ -1,4 +1,4 @@
-package com.wix.automationtraining;
+package com.wix.automationtraining.tricortreat;
 
 /**
  * Created by mikhails on 19.08.2016

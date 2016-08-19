@@ -1,4 +1,4 @@
-package com.wix.automationtraining;
+package com.wix.automationtraining.tricortreat;
 
 import java.util.Random;
 
