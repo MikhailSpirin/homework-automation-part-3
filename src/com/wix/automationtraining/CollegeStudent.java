@@ -53,10 +53,9 @@ public class CollegeStudent extends Person{
         //
         // later: may be wrong, as equals says false on two same instances
 
-        Person castPerson = (Person) collegeStudent;
         CollegeStudent castCollegeStudent = (CollegeStudent) collegeStudent;
 
-        return super.equals(castPerson) &&
+        return super.equals(collegeStudent) &&
                 castCollegeStudent.year == this.year &&
                 castCollegeStudent.major == this.major;
 

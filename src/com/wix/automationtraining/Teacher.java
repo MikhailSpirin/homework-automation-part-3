@@ -70,10 +70,9 @@ public class Teacher extends Person {
         //
         // later: may be wrong, as equyals says false on two same instances
 
-        Person castPerson = (Person) teacher;
         Teacher castTeacher = (Teacher) teacher;
 
-        return super.equals(castPerson) &&
+        return super.equals(teacher) &&
                 castTeacher.salary == this.salary &&
                 castTeacher.degree == this.degree &&
                 castTeacher.subject == this.subject;

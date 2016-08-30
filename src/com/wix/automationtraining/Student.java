@@ -86,10 +86,9 @@ public class Student extends Person {
         //
         // later: may be wrong, as equals says false on two same instances
 
-        Person castPerson = (Person) student;
         Student castStudent = (Student) student;
 
-        return super.equals(castPerson) &&
+        return super.equals(student) &&
                 castStudent.getStudentID()==(this.studentID) &&
                 castStudent.getGradeAverage()==this.gradeAverage;
     }
